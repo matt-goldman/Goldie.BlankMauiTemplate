@@ -36,6 +36,10 @@
 		<SupportedOSPlatformVersion Condition="'$(TargetFramework)' == 'net6.0-android'">21.0</SupportedOSPlatformVersion>
 		<SupportedOSPlatformVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$(TargetFramework.Contains('-windows'))">10.0.17763.0</TargetPlatformMinVersion>
+		<PackageProjectUrl>https://github.com/matt-goldman/Goldie.BlankMauiTemplate</PackageProjectUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Copyright>Matt Goldman 2022</Copyright>
+		<RepositoryUrl>https://github.com/matt-goldman/Goldie.BlankMauiTemplate</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>
